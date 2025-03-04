@@ -9,7 +9,7 @@ package Logica_Negocio;
  * @author Daniel
  */
 public class Producto {
-    String id, nombre , descripcion;
+    public String id, nombre , descripcion;
 
     public Producto() {
     }
