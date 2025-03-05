@@ -12,16 +12,16 @@ import java.util.ArrayList;
  */
 public class Persona {
     public String id, nombre, apellido;
-    public ArrayList <Producto> listaporductos;
+    public ArrayList <Producto> listaproductos;
 
     public Persona() {
     }
 
-    public Persona(String id, String nombre, String apellido, ArrayList<Producto> listaporductos) {
+    public Persona(String id, String nombre, String apellido, ArrayList<Producto> listaproductos) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.listaporductos = listaporductos;
+        this.listaproductos = listaproductos;
     }
 
     public String getId() {
@@ -48,12 +48,12 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public ArrayList<Producto> getListaporductos() {
-        return listaporductos;
+    public ArrayList<Producto> getListaproductos() {
+        return listaproductos;
     }
 
-    public void setListaporductos(ArrayList<Producto> listaporductos) {
-        this.listaporductos = listaporductos;
+    public void setListaproductos(ArrayList<Producto> listaproductos) {
+        this.listaproductos = listaproductos;
     }
     
     
