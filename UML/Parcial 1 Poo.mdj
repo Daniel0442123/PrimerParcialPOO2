@@ -2415,7 +2415,7 @@
 											"width": 271.6005859375,
 											"height": 13,
 											"underline": true,
-											"text": "+ValidarTodoDireccion(String descripcion): int",
+											"text": "+ValidarTodo(String descripcion): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2767,7 +2767,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGVG64I3P3wyNE="
 											},
-											"name": "String id"
+											"name": "String id",
+											"type": ""
 										},
 										{
 											"_type": "UMLParameter",
@@ -2795,7 +2796,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGVG64XjP4iU1Q="
 											},
-											"name": "String nombreProducto"
+											"name": "String nombreProducto",
+											"type": ""
 										},
 										{
 											"_type": "UMLParameter",
@@ -2814,7 +2816,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGVG6poD/n2Ud8="
 									},
-									"name": "ValidarTodoDireccion",
+									"name": "ValidarTodo",
 									"isStatic": true,
 									"parameters": [
 										{
@@ -2851,7 +2853,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGVG65ptf6G5C8="
 											},
-											"name": "String idPersona"
+											"name": "String idPersona",
+											"type": ""
 										},
 										{
 											"_type": "UMLParameter",
@@ -2879,7 +2882,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGVG66dbP65ZrI="
 											},
-											"name": "String nombre"
+											"name": "String nombre",
+											"type": ""
 										},
 										{
 											"_type": "UMLParameter",
@@ -2907,7 +2911,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGVaQYyaL0jqzo="
 											},
-											"name": "String apellidos"
+											"name": "String apellidos",
+											"type": ""
 										},
 										{
 											"_type": "UMLParameter",
