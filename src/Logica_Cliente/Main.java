@@ -32,7 +32,7 @@ public class Main {
         ArrayList<Persona> listaPersonas = new ArrayList<>();
         
         do {
-            System.out.println("B I E N V E N I D O   A L   M E N U ");
+            System.out.println("B I E N V E N I D O   A L   M E N U ....");
             System.out.println("1. Regitrar Personas");
             System.out.println("2. Mostrar Personas");
             System.out.println("3. Buscar personas");
