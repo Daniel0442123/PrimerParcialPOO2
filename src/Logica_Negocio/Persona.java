@@ -17,7 +17,7 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String id, String nombre, String apellido, ArrayList<Producto> listaproductos) {
+    public Persona(String id, String nombre, String apellido,ArrayList<Producto> listaproductos) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;

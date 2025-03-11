@@ -26,12 +26,13 @@ public class Main {
         Persona objPersona;
         Producto objProducto;
        
-        
+        //conteo valida el numero de caracteres ingresados por el usuario 
         int rta, conteo, cantidad,opcion=0;
         ArrayList<Producto> listaproductosglobal = null;
         ArrayList<Persona> listaPersonas = new ArrayList<>();
         
         do {
+            System.out.println("B I E N V E N I D O   A L   M E N U ");
             System.out.println("1. Regitrar Personas");
             System.out.println("2. Mostrar Personas");
             System.out.println("3. Buscar personas");
@@ -105,7 +106,7 @@ public class Main {
                         objProducto= new Producto(id, nombreProducto, descripcion);
                         listaproductolocal.add(objProducto);
                     }
-                    
+                    //proceso para no duplicar datos 
                     listaproductosglobal = listaproductolocal;
                     listaproductolocal = null;
                     
@@ -163,7 +164,7 @@ public class Main {
                         conteo = HelperValidacion.ValidarTodoLetra(apellido);
                     }
                     
-                    
+                    // Aqui se realiza la asociacion
                     objPersona= new Persona(idPersona,nombre, apellido, listaproductosglobal);
                     listaPersonas.add(objPersona);
 
